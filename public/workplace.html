@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NebulaOS Workspace</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/workspace.css" />
+</head>
 
+<body>
+
+  <div class="toolbar">
+    <button id="back">←</button>
+    <button id="forward">→</button>
+    <button id="refresh">⟳</button>
+    <button id="home">⌂</button>
+    <input id="fake-url" disabled />
+  </div>
+
+  <iframe id="uv-frame"></iframe>
+
+  <script src="/uv/uv.bundle.js"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="js/uv.js"></script>
+</body>
+</html>
