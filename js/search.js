@@ -18,7 +18,7 @@ function normalize(value) {
 
 function openUV(url) {
   const encoded = __uv$config.encodeUrl(url);
-  window.location.href = "/workspace.html#/" + encoded;
+  window.location.href = "workspace.html#/" + encoded;
 }
 
 go.addEventListener("click", () => {
