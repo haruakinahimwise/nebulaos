@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NebulaOS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/core.css" />
+</head>
 
+<body class="theme-nebula">
+
+  <div class="center-wrap">
+    <h1 class="brand">NebulaOS</h1>
+    <p class="tag">a browser from another universe</p>
+
+    <div class="search-box">
+      <input id="nebula-input" placeholder="search or enter url" />
+      <button id="nebula-go">→</button>
+    </div>
+
+    <div class="quick-launch">
+      <button class="quick" data-url="https://youtube.com">YouTube</button>
+      <button class="quick" data-url="https://google.com">Google</button>
+    </div>
+  </div>
+
+  <script src="/uv/uv.bundle.js"></script>
+  <script src="/uv/uv.config.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
