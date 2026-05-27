@@ -11,4 +11,4 @@ if (window.location.hash.startsWith("#/")) {
 document.getElementById("back").onclick = () => frame.contentWindow.history.back();
 document.getElementById("forward").onclick = () => frame.contentWindow.history.forward();
 document.getElementById("refresh").onclick = () => frame.contentWindow.location.reload();
-document.getElementById("home").onclick = () => window.location.href = "/";
+document.getElementById("home").onclick = () => window.location.href = "index.html";
